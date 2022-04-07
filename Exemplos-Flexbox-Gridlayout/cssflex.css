@@ -1,0 +1,15 @@
+.flex-container{
+    display:flex;
+    background-color: burlywood;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-container > div{
+    background-color: antialiased;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid coral;
+}
